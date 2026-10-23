@@ -22,6 +22,7 @@ Then browse by area:
 ## Root-level guides
 
 - [`CONTRIBUTION.md`](CONTRIBUTION.md) — guidelines for reporting issues, proposing changes, documenting behavior, and testing contributions.
+- [`Usage.md`](Usage.md)
 
 ## Quick start
 
@@ -30,7 +31,7 @@ Requirements: a C++17-compatible compiler and standard-library thread support.
 Compile the example from the repository root:
 
 ```bash
-g++ -std=c++17 -Wall -Wextra -Wpedantic -pthread \
+g++ -std=c++20 -Wall -Wextra -Wpedantic -pthread \
     -Iinclude examples/basic_usage.cpp -o eventbus_example
 ```
 
